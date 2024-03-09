@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Taladro",
+    "description": "Taladro eléctrico para perforar agujeros",
+    "price": 41.999,
+    "thumbnails": "taladro.jpg",
+    "code": "A001",
+    "stock": 10,
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "Destornillador",
+    "description": "Destornillador eléctrico para sacar y poner tornillos",
+    "price": 32.999,
+    "thumbnails": "Destornillador.jpg",
+    "code": "A002",
+    "stock": 10,
+    "status": true
+  },
+  {
+    "id": 3,
+    "title": "Amoladora",
+    "description": "Amoladora eléctrico para cortar, desbastar y pulir deistintos materiales",
+    "price": 37.999,
+    "thumbnails": "Amoladora.jpg",
+    "code": "A003",
+    "stock": 10,
+    "status": true
+  },
+  {
+    "id": 4,
+    "title": "Martillo Percutor",
+    "description": "Martillo Percutor eléctrico para perforaciones profundas, abrir agujeros en paredes, o demolerlas.",
+    "price": 64.955,
+    "thumbnails": "Martillo-Percutor.jpg",
+    "code": "A004",
+    "stock": 10,
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "Nombre Ejemplo N°5 ",
+    "description": "Descripcion Ejemplo N°5",
+    "price": 500,
+    "thumbnails": "Imagen-Ejemplo-N°5.jpg",
+    "code": "A005",
+    "stock": 10,
+    "status": true
+  },
+  {
+    "id": 6,
+    "title": "Nombre Ejemplo N°6 ",
+    "description": "Descripcion Ejemplo N°6",
+    "price": 500,
+    "thumbnails": "Imagen-Ejemplo-N°6.jpg",
+    "code": "A006",
+    "stock": 10,
+    "status": true
+  }
+ 
+]

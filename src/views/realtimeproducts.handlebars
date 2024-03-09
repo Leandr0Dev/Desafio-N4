@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center ">
+            <h1 id="h1-title">Productos en Tiempo Real</h1>
+            
+        </div>
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 g-4 mb-4 " id="products-container">
+        </div>
+        <hr>
+        <div  class="d-flex justify-content-center">
+            
+            <form action="productForm"  class="w-50 ">
+                 <h2 class="mb-4 ">Agregar Producto</h2>
+                <div class="mb-3">
+                    <label for="productTitle" class="form-label">Nombre del producto</label>
+                    <input type="text" class="form-control" id="productTitle"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="productDescription" class="form-label">Descripcion del producto</label>
+                    <input type="text" class="form-control" id="productDescription"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="productPrice" class="form-label">Precio</label>
+                    <input type="number" class="form-control" id="productPrice"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="productThumbnails" class="form-label">Imagen</label>
+                    <input type="text" class="form-control" id="productThumbnails"
+                        placeholder="https://www.ejemplo.com/image.jpg" required>
+                </div>
+                <div class="mb-3">
+                    <label for="productCode" class="form-label">Codigo del producto</label>
+                    <input type="text" class="form-control" id="productCode" required>
+                </div>
+                <div class="mb-3">
+                    <label for="productStock" class="form-label">Stock</label>
+                    <input type="number" class="form-control" id="productStock"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="productStatus" class="form-label">Status</label>
+                    <select class="form-select" id="productStatus">
+                        <option value="true">Disponible</option>
+                        <option value="false">No Disponible</option>
+                    </select>
+                </div>
+                <div class="mb-3 text-center">
+                    <button type="button" class="btn btn-primary" id="addProduct">Añadir ➕</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<script src="js/main.js" type="module"></script>

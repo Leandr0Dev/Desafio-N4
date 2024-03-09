@@ -1,0 +1,18 @@
+body{
+    background-color: beige;
+   
+}
+#h1-title{
+margin-top: 25px;
+color: blueviolet;
+}
+
+#card-title{
+    color: blueviolet;
+}
+#card-description{
+color: black;
+}
+#card-price{
+    color: green;
+}
